@@ -1,0 +1,45 @@
+
+
+노드js 공부 시작
+
+설치 방법
+https://nodejs.org/ 설치
+
+사용할 저장소 선택하고 경로에서 cmd 실행 , code . 으로 vs코드 열기
+
+ctrl + shift + `   으로 powershell 열기
+Set-ExecutionPolicy RemoteSigned -Scope Currentuser
+package.json 설치 : npm init -y
+
+
+
+설치 안될시
+
+vscode 관리자 권한으로 실행
+작업 위치 선택
+
+Windows PowerShell 관리자 권한으로 실행
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+y
+
+후에 vscode 실행해서 파워쉘창 열고 npm init -y 
+설치성공
+
+npm install parcel -bundler -D
+
+
+package.json에서
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  }
+
+확인 할 수 있음.
+
+
+설치된 node modul 폴더 삭제하기.
+
+npm install parcel -bundler -D
+
+
+npx parcel index.html
+
